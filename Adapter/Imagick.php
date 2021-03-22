@@ -72,6 +72,16 @@ class Imagick extends Common
     }
 
     /**
+     * Save the image as a webP.
+     *
+     * @return $this
+     */
+    public function saveWebp($file, $quality)
+    {
+        // TODO: Implement saveWebp() method.
+    }
+    
+    /**
      * Crops the image.
      *
      * @param int $x      the top-left x position of the crop box
